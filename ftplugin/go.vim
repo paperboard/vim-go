@@ -14,7 +14,6 @@ let s:cpo_save = &cpo
 set cpo&vim
 
 let b:undo_ftplugin = "setl fo< com< cms<"
-      \ . "| exe 'au! vim-go-buffer * <buffer>'"
 
 setlocal formatoptions-=t
 
